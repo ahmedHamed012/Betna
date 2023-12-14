@@ -1,0 +1,291 @@
+html
+{
+    direction: rtl;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Cairo;
+}
+.nav
+{
+    width: 100%;
+    height:80px;
+    background-color: #2f4ac5;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    align-items: center;
+}
+.nav .container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav .container .image
+{
+    width: 250px;
+    height:80px;
+}
+.nav .container .image img
+{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.filter 
+{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.filter-section
+{
+    background-color: #2f4ac5;
+    width:950px;
+    height:150px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.filter-p
+{
+    font-size: 25px;
+    color: #f4f4f4;
+    font-weight: bold;
+text-align: center;
+margin-bottom: 0;
+margin-top: 7px;
+}
+.slct
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+}
+.select-box
+{
+    margin-right: 10px;
+}
+.select-box span
+{
+    font-size: 20px;
+    color: #f4f4f4;
+    padding-left: 10px;
+}
+.select-box select
+{
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    font-family: Cairo;
+    font-size: 15px;
+    padding:5px 20px;
+border: #f4f4f4;
+outline: none;
+cursor: pointer;
+}
+.filter-name
+{
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    font-family: Cairo;
+    font-size: 13px;
+    padding:5px 10px;
+    border: #f4f4f4;
+    outline: none;
+}
+.submit-filter
+{
+    width: 70px;
+    padding:10px;
+    font-family: Cairo;
+    background-color: white;
+    color: #2f4ac5;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.Job
+{
+    font-size: 30px;
+    font-weight: bold;
+    border-right: 5px solid black;
+    padding-right: 10px;
+    margin-right: 50px;
+}
+.worker-card
+{
+    width:300px;
+    height:380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+.card-content
+{
+    width: 100%;
+}
+.image-card
+{
+    width:100px;
+    height:100px;
+    background-color: #2f4ac5;
+    border-radius: 50%;
+    padding:5px;
+    position: relative;
+    z-index: 100;
+    margin: 10 auto;
+}
+.image-card img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.infos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.buttons button
+{
+    font-family: Cairo;
+    font-size: 14px;
+    padding:8px 22px;
+    background-color: #2f4ac5;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left:10px;
+    margin-bottom:15px;
+    width:120px;
+}
+.all-workers
+{
+    display: flex;
+    flex-direction: row;   
+}
+.footer1
+{
+    background-color: #2f4ac5;
+    width: 100%;
+    height:430px;
+    display: flex;
+    flex-direction: row;
+}
+.contains1
+{
+margin: 60px 50px;
+}
+.imagelog
+{
+    width:300px;
+    height: 100px;
+}
+.imagelog img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.listsf1
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.lists1
+{
+    font-family: Cairo;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+}
+.headf
+{
+    font-family: Cairo;
+    font-size: 23px;
+    font-weight: bold;
+    color:white;
+}
+.contains2
+{
+    display: flex;
+    margin:60px 50px 0 0;
+    flex-direction: column;
+}
+.contains3
+{
+    display: flex;
+    margin:60px 50px 0 0;
+    flex-direction: column;
+}
+.contains3 .list3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contains4
+{
+    display: flex;
+    margin:60px 50px 0 0;
+    flex-direction: column;
+}
+.contains4 .list4
+{
+    display: flex;
+    flex-direction: column;    
+}
+
+.contains4 .list4 a
+{
+    font-size:20px;
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.copy-rights
+{
+    width:100%;
+    height:50px;
+    text-align: center;
+    background-color: #2f4ac5;
+    border-top: 1px solid white;
+}
+.copy-rights p
+{
+    margin: 0;
+font-family: Cairo;
+font-size: 15px;
+font-weight: bold;
+color: white;
+padding-top: 10px;
+padding-bottom: 4px;
+}

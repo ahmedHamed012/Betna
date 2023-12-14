@@ -1,0 +1,95 @@
+html
+{
+    direction: rtl;
+}
+body
+{
+    background-image: url("../imgs/betnaSignbackground.jpg");
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+.sec1
+{
+    width:100%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container
+{
+    width:800px;
+    height:100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:flex;
+    flex-direction: column;
+}
+.contains
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 19%;
+}
+.image
+{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.image1
+{
+    width:100px;
+    height:100px;
+}
+.caption
+{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Cairo;
+    color:black;
+    margin-top: 10px;
+    padding-right: 8px;
+}
+
+.field-name
+{
+    width:70%;
+    height:42px;
+    border: none;
+    border-bottom: 2px solid #2f4ac5;
+    margin-top: 10px;
+    outline: none;
+    font-family: Cairo;
+    font-size: 17px;
+    padding:10px;
+}
+
+.sbmt
+{
+    background-color: #2f4ac5;
+    color: white;
+    width:120px;
+    height:40px;
+    font-family: Cairo;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 35px;
+}
+.field-container
+{
+    margin-top:15px;
+}
+.forget-and-create
+{
+    display: block;
+    color:#2f4ac5;
+    font-size: 18px;
+    font-family: Cairo;
+}

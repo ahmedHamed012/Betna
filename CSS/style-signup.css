@@ -1,0 +1,141 @@
+html
+{
+    direction: rtl;
+}
+body
+{
+    background-image: url("../imgs/betnaSignbackground.jpg");
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+.nav
+{
+    width:100%;
+    height:58px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1
+{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container
+{
+    width:800px;
+    height:100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:flex;
+    flex-direction: column;
+}
+.contains
+{
+    display: flex;
+    flex-direction: row;
+}
+.image
+{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.image1
+{
+    width:100px;
+    height:100px;
+}
+.caption
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Cairo;
+    color:black;
+    margin-top: 10px;
+    padding-right: 8px;
+}
+.field
+{
+    width:81%;
+    height:32px;
+    border: none;
+    border-bottom: 1px solid #2f4ac5;
+    outline: none;
+    font-family: Cairo;
+}
+.field-name
+{
+    width:40%;
+    height:32px;
+    border: none;
+    border-bottom: 1px solid #2f4ac5;
+    outline: none;
+    font-family: Cairo;
+}
+.part1
+{
+    width: 50%;
+    margin-right: 3%;
+}
+.part2
+{
+    width: 50%;
+}
+.field-years
+{
+    width:30%;
+    height:32px;
+    border: none;
+    border-bottom: 1px solid #2f4ac5;
+    background-color: white;
+    outline: none;
+    font-family: Cairo;
+}
+.field-job
+{
+    width:30%;
+    height:32px;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #2f4ac5;
+    font-family: Cairo;
+    font-size: 15px;
+}
+.sbmt
+{
+    background-color: #2f4ac5;
+    color: white;
+    width:120px;
+    height:40px;
+    font-family: Cairo;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 25px;
+}
+.field-container
+{
+    margin-top:15px;
+}
+.field-add
+{
+    width:30%;
+    height:32px;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #2f4ac5;
+    font-family: Cairo;
+    font-size: 15px;
+    margin-bottom: 10px;
+}

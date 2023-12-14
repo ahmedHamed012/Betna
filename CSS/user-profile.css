@@ -1,0 +1,288 @@
+html
+{
+    direction: rtl;
+}
+body
+{
+    margin:0;
+    padding:0;
+}
+
+.parent1
+{
+    background-color: #2f4ac5;
+    width: 100%;
+    height:150px;
+}
+.parent1 .container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.parent1 .container .image
+{
+    width: 250px;
+    height:80px;
+}
+.parent1 .container .image img
+{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.username-img
+{
+    width: 100%;
+    height:200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card-img
+{
+    width:240px;
+    height:240px;
+    background-color: #2f4ac5;
+    border-radius: 50%;
+    padding:5px;
+    position: relative;
+    z-index: 100;
+    margin-right: 20px;
+}
+.card-img img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.user-nameh
+{
+    font-family: Cairo;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right:20px;
+    color: #2f4ac5;
+    border-bottom: 2px solid #2f4ac5;
+    padding-bottom: 5px;
+}
+.page-contains
+{
+    display:flex ;
+    flex-direction: row;
+
+}
+.page-contains .editbar
+{
+    background-color: #2f4ac5;
+    width:300px;
+    height:420px;
+    border-radius: 15px;
+    margin:5px 20px;
+}
+.page-contains .editbar .ancs 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.page-contains .editbar .ancs .anchors
+{
+    font-family: Cairo;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    padding:20px 0;
+    margin: 0;
+    text-align: center;
+}
+.page-contains .editbar .ancs .anchors:hover
+{
+cursor: pointer;
+opacity: 0.7;
+}
+.p-head 
+{
+text-align: center;
+margin-bottom: -20px;
+}
+.editbar .p-head span
+{
+font-family: Cairo;
+font-size: 18px;
+margin-bottom: 0;
+color: white;
+border-bottom: 2px solid white;
+}
+.edit-field
+{
+    display: flex;
+    flex-direction: column;
+    border-right:2px solid #D0D0D0;
+    padding:40px;
+    margin-right: 40px;
+}
+.edit-field p
+{
+    font-family: Cairo;
+    font-size: 28px;
+    border-right: 2px solid black;
+    padding-right : 10px;
+}
+
+.edit-field table label
+{
+    font-family: Cairo;
+    font-size: 20px;
+}
+.edit-field table
+{
+    margin-top: 20px;
+}
+.edit-field table input
+{
+width: 300px;
+height:42px;
+font-family: Cairo;
+outline: none;
+font-size: 18px;
+padding:3px;
+}
+select
+{
+    width:170px;
+    height:40px;
+    border-radius: 5px;
+    font-family: Cairo;
+    font-size: 15px;
+    padding:5px 20px;
+    outline: none;
+    cursor: pointer;
+}
+.save-button
+{
+    width:170px;
+    height:50px;
+    font-family: Cairo;
+    font-size: 20px;
+    color:white;
+    border: none;
+    outline: none;
+    background-color: #2f4ac5;
+    margin-right: 100%;
+    cursor: pointer;
+}
+.error404 p
+{
+font-family: Cairo;
+font-size: 50px;
+color: #D0D0D0;
+border : none;
+text-align: center;
+}
+.footer1
+{
+    background-color: #2f4ac5;
+    width: 100%;
+    height:430px;
+    display: flex;
+    flex-direction: row;
+}
+.contains1
+{
+margin: 60px 50px;
+}
+.imagelog
+{
+    width:300px;
+    height: 100px;
+}
+.imagelog img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.listsf1
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.lists1
+{
+    font-family: Cairo;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+}
+.headf
+{
+    font-family: Cairo;
+    font-size: 23px;
+    font-weight: bold;
+    color:white;
+}
+.contains2
+{
+    display: flex;
+    margin:60px 50px 0 0;
+    flex-direction: column;
+}
+.contains3
+{
+    display: flex;
+    margin:60px 50px 0 0;
+    flex-direction: column;
+}
+.contains3 .list3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contains4
+{
+    display: flex;
+    margin:60px 50px 0 0;
+    flex-direction: column;
+}
+.contains4 .list4
+{
+    display: flex;
+    flex-direction: column;    
+}
+
+.contains4 .list4 a
+{
+    font-size:20px;
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.copy-rights
+{
+    width:100%;
+    height:50px;
+    text-align: center;
+    background-color: #2f4ac5;
+    border-top: 1px solid white;
+}
+.copy-rights p
+{
+    margin: 0;
+font-family: Cairo;
+font-size: 15px;
+font-weight: bold;
+color: white;
+padding-top: 10px;
+padding-bottom: 4px;
+}
